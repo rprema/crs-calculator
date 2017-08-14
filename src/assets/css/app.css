@@ -1,0 +1,99 @@
+
+body {
+  background-color: #e6e6fa;
+  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 16px;
+  color: #333;
+  margin: 30px;
+}
+
+hr {
+  background: #ddd;
+  height: 1px;
+  border-style: none;
+  margin: 10px 0 30px;
+}
+
+#app {
+  background-color: #fff;
+  border: 1px solid #dfe6e6;
+  border-radius: 2px;
+  box-shadow: 0 4px 8px 2px rgba(0,0,0,0.06);
+  padding: 30px;
+  margin: 0 auto;
+}
+
+.crs-title {
+  text-align: center;
+  margin: 0 0 20px;
+}
+
+.factors-list {
+  background-color: #ecf5e2;
+  border: 1px solid #dfe6e6;
+  padding: 30px;
+  height: 100%;
+}
+.score-badge {
+  background: #409EFF;
+  text-align: center;
+  color: #fff;
+  height: 20px;
+  border-radius: 2px;
+  line-height: 20px;
+  display: flex;
+  float: right;
+  align-items: center;
+  padding: 2px 8px;
+  margin-top: 6px;
+}
+
+/* Element CSS */
+.el-form-item__label {
+  font-size: 16px;
+  font-weight: 500;
+  color :#222;
+}
+
+.el-input__inner {
+  color :#333;
+  font-weight: 500;
+}
+
+.el-select {
+  width: 80%;
+}
+
+.el-select-dropdown__wrap {
+  max-height: 320px;
+}
+
+.el-table {
+  border: 1px solid #dfe6e6;
+}
+
+.el-table td, .el-table th {
+  padding: 8px 0;
+}
+
+.el-collapse-item {
+    border-left: 1px solid #ebeef5;
+    border-right: 1px solid #ebeef5;
+}
+
+.el-collapse-item__header {
+  font-size: 18px;
+  background: #f3e7d5;
+  padding: 0 10px;
+}
+
+.el-collapse-item__header  span {
+  float: right;
+  padding-right: 10px;
+}
+
+.el-collapse-item__wrap {
+  padding: 30px;
+}
